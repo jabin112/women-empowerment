@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Empowerment International</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        header {
+            background-color: #4b0082;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background-color: #4b0082;
+            color: white;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .banner img {
+            max-width: 50%;
+            border-radius: 10px;
+        }
+        .banner button {
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .banner button:hover {
+            background-color: #e64a19;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        .stat {
+            text-align: center;
+            font-size: 20px;
+        }
+        footer {
+            background-color: #4b0082;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Green and White Elegant India Fashion Brand Logo.png" alt="Women Empowerment Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ourimp.html">Initiatives</a></li>
+            </ul>
+        </nav>
+        <button onclick="donate()">Donate</button>
+    </header>
+    <section class="banner">
+        <img src="home.webp" alt="Empowerment Celebration">
+        <h2 style="color: pink;">Empower Her: Rise, Lead, Inspire </h2>
+    </section>
+    <section class="stats">
+        <div class="stat">
+            <h3>15</h3>
+            <p>Partners Helped</p>
+        </div>
+        <div class="stat">
+            <h3>2.8M</h3>
+            <p>Dollar Amount of Funds Granted</p>
+        </div>
+        <div class="stat">
+            <h3>20</h3>
+            <p>Years of Grantmaking</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Women Empowerment International. All rights reserved.</p>
+    </footer>
+    <script>
+        function learnMore() {
+            window.location.href = '#about';
+        }
+        function donate() {
+            window.location.href = '#donate';
+        }
+    </script>
+</body>
+</html>
